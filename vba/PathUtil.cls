@@ -135,6 +135,8 @@ Public Function Combine(ParamArray paths() As Variant) As String
     Combine = ret
 End Function
 
+
+
 '//////////////////////////////////////
 Private Function GetSpecialFolders(ByVal id As Integer) As String
 On Error GoTo ex
